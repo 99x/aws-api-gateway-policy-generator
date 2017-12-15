@@ -1,0 +1,20 @@
+{
+    "CreateUser": [
+        {
+            "Resource": "test resource"
+        },
+        {
+            "Resource": "denied resource",
+            "Effect": "deny"
+        },
+        {
+            "Resource": "another resource",
+            "Action": "execute-api:Invoke"
+        }
+    ],
+    "UpdateUser": [
+        {
+            "Resource": "some other resource"
+        }
+    ]
+}
