@@ -3,7 +3,9 @@ import { PolicyGenerator } from '../src/index';
 
 const policyMap = require('./policy-map.json');
 
-const validator = new Validator(process.env.iss, process.env.aud, false);
+//running on fake authorization mode
+const validator = new Validator(process.env.iss, process.env.aud, true);
+
 const generator = new PolicyGenerator(policyMap);
 
 export const authorize = async (event, context, cb) => {
