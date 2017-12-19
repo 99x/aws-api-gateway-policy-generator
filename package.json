@@ -1,6 +1,6 @@
 {
   "name": "aws-api-gateway-policy-generator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generates an AWS policy document based on a given set of claims.",
   "main": "./build/src/index.js",
   "types": "./build/src/index.d.ts",
